@@ -10,17 +10,21 @@ body {
     justify-content: start;
 }
 
-#Menu {
+#Container-menu {
     display: flex;
     align-items: flex-start; 
     justify-content: flex-start;
     padding: 0;
     margin: 0;
+    background-color: black;
 }
-#Menu p {
+
+#Container-menu a {
+    text-decoration: none;
+    color: white;
     font-size: 25px;
     padding: 0;
-    margin: 5px;
+    margin: 25px;
 }
 
 #Container-logo {
