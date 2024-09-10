@@ -24,14 +24,15 @@ body {
     text-decoration: none;
     color: white;
     font-size: 25px;
-    padding: 0;
+    padding: 4px 12px;
     margin: 25px;
     transition: all 0.3s ease;
 }
 
 #Container-menu a:hover {
     transform: scale(1.1);
-    color: gray 
+    background-color: rgba(128, 128, 128, 0.252);
+    border-radius: 8px;
 }
 
 #Container-logo {
