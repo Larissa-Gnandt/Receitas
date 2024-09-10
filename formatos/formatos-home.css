@@ -16,6 +16,7 @@ body {
     justify-content: flex-start;
     padding: 0;
     margin: 0;
+    margin-bottom: 30px;
     background-color: black;
 }
 
@@ -25,6 +26,12 @@ body {
     font-size: 25px;
     padding: 0;
     margin: 25px;
+    transition: all 0.3s ease;
+}
+
+#Container-menu a:hover {
+    transform: scale(1.1);
+    color: gray 
 }
 
 #Container-logo {
