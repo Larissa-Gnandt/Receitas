@@ -1,82 +1,119 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos/formatos.css">
-    <link rel="stylesheet" href="./estilos/cadastro.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilos/formatos.css" />
+    <link rel="stylesheet" href="./estilos/cadastro.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
     <title>Cadastro</title>
-</head>
+  </head>
 
-<body>
-    <div id="Container-menu">
-        <p><a href="home.html">Home</a></p>
-        <p><a href="receitas.html">Receitas</a></p>
-        <p><a href="cadastro.html">Cadastro</a></p>
-    </div>
+  <body>
+    <header id="Container-menu">
+      <p><a href="home.html">Home</a></p>
+      <p><a href="receitas.html">Receitas</a></p>
+      <p><a href="cadastro.html">Cadastro</a></p>
+    </header>
 
     <h1 id="Titulo-cadastro">Efetue seu Cadastro</h1>
 
     <form id="Container-fluid">
-        <div class="form-row">
-            <div class="form-group col-md-12">
-                <label for="inputName">Nome</label>
-                <input type="text" class="form-control" id="inputName" placeholder="Nome">
-            </div>
-            <div class="form-group col-md-12">
-                <label for="inputEmail4">Email</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-            </div>
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="inputName">Nome</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputName"
+            placeholder="Nome"
+          />
         </div>
-
-        <div class="form-row">
-            <div class="form-group col-md-7">
-                <label for="inputRua">Rua</label>
-                <input type="text" class="form-control" id="inputRua" placeholder="Rua">
-            </div>
-            <div class="form-group">
-                <label for="inputNumero">Número</label>
-                <input type="text" class="form-control" id="inputNumero" placeholder="Número">
-            </div>
+        <div class="form-group col-md-12">
+          <label for="inputEmail4">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="inputEmail4"
+            placeholder="Email"
+          />
         </div>
+      </div>
 
-        <div class="form-row">
-            <div class="form-group col-md-7">
-                <label for="inputComplemento">Complemento</label>
-                <input type="text" class="form-control" id="inputComplemento" placeholder="Complemento">
-            </div>
+      <div class="form-row">
+        <div class="form-group col-md-7">
+          <label for="inputRua">Rua</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputRua"
+            placeholder="Rua"
+          />
         </div>
-
-        <div class="form-row">
-            <div class="form-group col-md-7">
-                <label for="inputCity">Cidade</label>
-                <input type="text" class="form-control" id="inputCity" placeholder="Cidade">
-            </div>
+        <div class="form-group">
+          <label for="inputNumero">Número</label>
+          <input
+            type="number"
+            class="form-control"
+            id="inputNumero"
+            placeholder="Número"
+          />
         </div>
+      </div>
 
-        <div class="form-row">
-            <div class="form-group col-md-5">
-                <label for="inputEstado">Estado</label>
-                <select id="inputEstado" class="form-control">
-                    <option selected>Escolher...</option>
-                    <option>...</option>
-                </select>
-            </div>
-            <div class="form-group col-md-2" >
-                <label for="inputCEP">CEP</label>
-                <input type="text" class="form-control" id="inputCEP">
-            </div>
+      <div class="form-row">
+        <div class="form-group col-md-7">
+          <label for="inputComplemento">Complemento</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputComplemento"
+            placeholder="Complemento"
+          />
         </div>
+      </div>
 
-        <button id="Button" type="submit" class="btn btn-primary">Cadastrar</button>
+      <div class="form-row">
+        <div class="form-group col-md-7">
+          <label for="inputCity">Cidade</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputCity"
+            placeholder="Cidade"
+          />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-5">
+          <label for="inputEstado">Estado</label>
+          <select id="inputEstado" class="form-control">
+            <option selected>Escolher...</option>
+            <option>Acre</option>
+            <option>Alagoas</option>
+            <option>Amapá</option>
+            <option>São Paulo</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputCEP">CEP</label>
+          <input type="text" class="form-control" id="inputCEP" />
+        </div>
+      </div>
+
+      <button id="Button" type="submit" class="btn btn-primary">
+        Cadastrar
+      </button>
     </form>
 
     <footer id="Container-footer">
-        <p>©Jurema 2022</p>
+      <p>©Jurema 2022</p>
     </footer>
-</body>
-
+  </body>
 </html>

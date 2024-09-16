@@ -1,128 +1,127 @@
 body {
-    flex-direction: column;
-    justify-content:space-between;
+  justify-content: space-between;
 }
 
 #Titulo-cadastro {
-    display: flex;
-    align-items: start;
-    justify-content: start;
-    padding: 0;
-    margin: 0 200px;
-    background-color: rgb(233 150 122);
-    font-size: 50px;
-    color: black;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  padding: 0;
+  margin: 0 200px;
+  background-color: rgb(233 150 122);
+  font-size: 50px;
+  color: black;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #Container-fluid {
-    background-color: rgb(233 150 122);
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0 200px;
-    padding: 0;
+  background-color: rgb(233 150 122);
+  font-family: "Times New Roman", Times, serif;
+  margin: 0 200px;
+  padding: 0;
 }
 
 .form-group {
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-    padding: 0;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
 }
 
-.form-group input{
-    padding: 20px;
-    margin: 0;
-    border: none;
-    border-radius: 5px;
-    font-size: 20px;
+.form-group input {
+  padding: 20px;
+  margin: 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
 }
 
 #inputEstado {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0;
-    padding: 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
 }
 
 #Button {
-    background-color: rgb(52 58 64);
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-    margin: 9px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(52 58 64);
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin: 9px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
 }
 
 #Button:hover {
-    background-color: rgb(77, 79, 81);
+  background-color: rgb(77, 79, 81);
 }
 
 @media (max-width: 800px) {
-    #Titulo-cadastro {
-        font-size: 35px;
-        margin: 0 50px;
-    }
+  #Titulo-cadastro {
+    font-size: 35px;
+    margin: 0 50px;
+  }
 
-    #Container-fluid {
-        margin: 0 50px;
-    }
+  #Container-fluid {
+    margin: 0 50px;
+  }
 
-    .form-group {
-        font-size: 18px;
-    }
+  .form-group {
+    font-size: 18px;
+  }
 
-    .form-group input {
-        padding: 15px;
-        font-size: 18px;
-    }
+  .form-group input {
+    padding: 15px;
+    font-size: 18px;
+  }
 
-    #inputEstado {
-        padding: 15px;
-        font-size: 18px;
-    }
+  #inputEstado {
+    padding: 15px;
+    font-size: 18px;
+  }
 
-    #Button {
-        font-size: 18px;
-        padding: 8px;
-    }
+  #Button {
+    font-size: 18px;
+    padding: 8px;
+  }
 }
 
 @media (max-width: 500px) {
-    #Titulo-cadastro {
-        font-size: 28px;
-        margin: 0 20px;
+  #Titulo-cadastro {
+    font-size: 28px;
+    margin: 0 20px;
 
-        #Container-fluid {
-            margin: 0 20px;
-        }
-
-        .form-group {
-            font-size: 16px;
-        }
-
-        .form-group input {
-            padding: 10px;
-            font-size: 16px;
-        }
-
-        #inputEstado {
-            padding: 10px;
-            font-size: 16px;
-        }
-
-        #Button {
-            font-size: 16px;
-            padding: 6px;
-        }
+    #Container-fluid {
+      margin: 0 20px;
     }
+
+    .form-group {
+      font-size: 16px;
+    }
+
+    .form-group input {
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    #inputEstado {
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    #Button {
+      font-size: 16px;
+      padding: 6px;
+    }
+  }
 }
