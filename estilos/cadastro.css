@@ -67,4 +67,62 @@ body {
     background-color: rgb(77, 79, 81);
 }
 
+@media (max-width: 800px) {
+    #Titulo-cadastro {
+        font-size: 35px;
+        margin: 0 50px;
+    }
 
+    #Container-fluid {
+        margin: 0 50px;
+    }
+
+    .form-group {
+        font-size: 18px;
+    }
+
+    .form-group input {
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    #inputEstado {
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    #Button {
+        font-size: 18px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 500px) {
+    #Titulo-cadastro {
+        font-size: 28px;
+        margin: 0 20px;
+
+        #Container-fluid {
+            margin: 0 20px;
+        }
+
+        .form-group {
+            font-size: 16px;
+        }
+
+        .form-group input {
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        #inputEstado {
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        #Button {
+            font-size: 16px;
+            padding: 6px;
+        }
+    }
+}
