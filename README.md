@@ -23,16 +23,17 @@ Abaixo está a estrutura básica dos arquivos do projeto:
 ```
 /receitas
 │
+├── estilos/
+│       └── cadastro.css                # Arquivo de estilos do Casdastro
+│       └── formatos.css                # Arquivo de estilos globais
+│       └── home.css                    # Arquivo de estilos da Home
+│       └── receitas.css                # Arquivo de estilos das Receitas
+├── imagens/
+│       └── ...                         # Imagens usadas no projeto
+├── cadastro.html                       # Página de Cadastro de Usuário
 ├── home.html                           # Página Home
 ├── receitas.html                       # Página de Receitas
-├── cadastro.html                       # Página de Cadastro de Usuário
-├── formatos/
-│       └── formato-cadastro.css        # Arquivos de estilos do Casdastro
-│       └── formato-home.css            # Arquivos de estilos da Home
-│       └── formato-receitas.css        # Arquivos de estilos das Receitas
 │
-├── images/
-│       └── ...                         # Imagens usadas no projeto
 └── README.md                           # Arquivo com informações do projeto
 ```
 
@@ -58,5 +59,6 @@ cd receitas
 
 3. Abra o arquivo home.html no seu navegador para visualizar a página inicial.
 4. Explore as demais páginas:
+
 - receitas.html para visualizar as receitas.
 - cadastro.html para criar uma conta de usuário.
