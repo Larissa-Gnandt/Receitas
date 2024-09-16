@@ -21,7 +21,7 @@ O projeto possui três páginas principais:
 Abaixo está a estrutura básica dos arquivos do projeto:
 
 ```
-/Receitas
+/receitas
 │
 ├── home.html                           # Página Home
 ├── receitas.html                       # Página de Receitas
@@ -47,13 +47,13 @@ Abaixo está a estrutura básica dos arquivos do projeto:
 1. Clone este repositório para o seu ambiente local:
 
 ```
-git clone git@github.com:Larissa-Gnandt/Receitas.git
+git clone git@github.com:Larissa-Gnandt/receitas.git
 ```
 
 2. Navegue até o diretório do projeto:
 
 ```
-cd Receitas
+cd receitas
 ```
 
 3. Abra o arquivo home.html no seu navegador para visualizar a página inicial.
