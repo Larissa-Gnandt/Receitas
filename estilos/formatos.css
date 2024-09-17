@@ -12,24 +12,7 @@ body {
   overflow-y: auto;
 }
 
-#Container-footer {
-  display: flex;
-  background-color: black;
-  align-items: flex-end;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
-}
-
-#Container-footer p {
-  padding: 6px;
-  margin: 0;
-  font-size: 25px;
-  color: white;
-  font-weight: bold;
-}
-
-#Container-menu {
+#Menu-container {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -40,7 +23,7 @@ body {
   height: 60px;
 }
 
-#Container-menu a {
+#Menu-container a {
   text-decoration: none;
   color: white;
   font-size: 25px;
@@ -49,8 +32,25 @@ body {
   transition: all 0.3s ease;
 }
 
-#Container-menu a:hover {
+#Menu-container a:hover {
   transform: scale(1.1);
   background-color: rgba(128, 128, 128, 0.252);
   border-radius: 8px;
+}
+
+#Footer-container {
+  display: flex;
+  background-color: black;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+#Footer-container p {
+  padding: 6px;
+  margin: 0;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
 }

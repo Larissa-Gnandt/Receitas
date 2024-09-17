@@ -6,7 +6,7 @@ body {
   flex-grow: 1;
 }
 
-#Container-logo {
+#Logo-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,21 +15,21 @@ body {
   gap: 10px;
 }
 
-.Imagem-logo {
+.Logo-imagem {
   width: 50px;
   height: 50px;
   margin-top: 0;
   padding: 0;
 }
 
-#Container-logo h1 {
+#Logo-container h1 {
   font-size: 50px;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-#Bem-vindo {
+#Bem-vindo-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,7 +39,7 @@ body {
   gap: 10px;
 }
 
-#Bem-vindo p {
+#Bem-vindo-container p {
   padding: 0;
   margin: 0;
   font-size: 35px;
