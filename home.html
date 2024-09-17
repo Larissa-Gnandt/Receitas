@@ -3,15 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="./estilos/formatos.css" />
     <link rel="stylesheet" href="./estilos/home.css" />
+
     <title>Home</title>
   </head>
   <body>
-    <header id="Menu-container">
-      <p><a href="home.html">Home</a></p>
-      <p><a href="receitas.html">Receitas</a></p>
-      <p><a href="cadastro.html">Cadastro</a></p>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img class="logo-navbar" src="./imagens/logo-chapeu.png" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Alterna navegação"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.html"
+                >Home <span class="sr-only">(Página atual)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="receitas.html">Receitas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cadastro.html">Cadastro</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <div class="Espaco"></div>
@@ -30,6 +60,9 @@
 
     <footer id="Footer-container">
       <p>©Jurema 2022</p>
+
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.js"></script>
     </footer>
   </body>
 </html>

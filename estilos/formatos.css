@@ -12,30 +12,26 @@ body {
   overflow-y: auto;
 }
 
-#Menu-container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 30px;
-  background-color: rgb(52 58 64);
+.logo-navbar {
+  width: 60px;
   height: 60px;
 }
 
-#Menu-container a {
-  text-decoration: none;
-  color: white;
+.nav-item a {
+  margin-right: 20px;
+  font-family: "Times New Roman", Times, serif;
   font-size: 25px;
-  padding: 4px 12px;
-  margin: 25px;
-  transition: all 0.3s ease;
 }
 
-#Menu-container a:hover {
-  transform: scale(1.1);
-  background-color: rgba(128, 128, 128, 0.252);
-  border-radius: 8px;
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler:hover {
+  border-color: rgb(200, 194, 194);
 }
 
 #Footer-container {
