@@ -23,6 +23,7 @@ hr {
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+  gap: 20px;
 }
 
 .card {
@@ -34,4 +35,15 @@ hr {
 
 .card-img-top {
   border-radius: 10px;
+}
+
+@media (max-width: 1199px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
 }
