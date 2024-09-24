@@ -23,18 +23,27 @@ Abaixo está a estrutura básica dos arquivos do projeto:
 ```
 /receitas
 │
-├── estilos/
-│       └── cadastro.css                # Arquivo de estilos do Casdastro
-│       └── formatos.css                # Arquivo de estilos globais
-│       └── home.css                    # Arquivo de estilos da Home
-│       └── receitas.css                # Arquivo de estilos das Receitas
-├── imagens/
-│       └── ...                         # Imagens usadas no projeto
-├── cadastro.html                       # Página de Cadastro de Usuário
-├── home.html                           # Página Home
-├── receitas.html                       # Página de Receitas
+├── /assets
+│   ├── /imagens                # Pasta para imagens
 │
-└── README.md                           # Arquivo com informações do projeto
+├── /css
+│   ├── bootstrap.css           # Estilos do Bootstrap
+│   ├── bootstrap.min.css.map   # Arquivo de debugging do Bootstrap
+│   ├── cadastro.css            # Estilos da página "Cadastro"
+│   ├── formatos.css            # Estilos globais do projeto
+│   ├── home.css                # Estilos da página "Home"
+│   └── receitas.css            # Estilos da página "Receitas"
+│
+├── /js
+│   ├── bootstrap.js            # Funções dinâmicas do Bootstrap
+│   ├── bootstrap.min.js.map    # Arquivo de debugging do Bootstrap
+│   └── jquery.js               # Biblioteca para manipulação do DOM
+│
+├── cadastro.html               # Página de cadastro
+├── home.html                   # Página principal (Home)
+├── receitas.html               # Página de receitas
+├── README.md                   # Arquivo com instruções do projeto
+
 ```
 
 ## Tecnologias Utilizadas
