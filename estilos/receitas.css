@@ -24,13 +24,13 @@ hr {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
   gap: 20px;
+  padding: 20px;
 }
 
 .card {
   box-sizing: border-box;
   padding: 1rem;
   background-color: rgba(245, 235, 235, 0.856);
-  margin: 20px 20px;
 }
 
 .card-img-top {
